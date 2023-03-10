@@ -4,6 +4,7 @@ import {
     Route,
 
 } from 'react-router-dom';
+//import { createBrowserHistory } from "history";
 import { useState } from 'react';
 
 
@@ -33,7 +34,7 @@ function App() {
        
         
     }
-
+   // const history = createBrowserHistory({ basename: '/Artinet-Front' });
   return (
       <>
 
@@ -41,11 +42,11 @@ function App() {
           <Router>
               <Routes>
                   
-                  <Route exact path='/' element={< Landing />}></Route>
-                  <Route exact path='/signin' element={< SignIn />}></Route>
-                  <Route exact path='/login' element={< Login />}></Route>
-                  <Route exact path='/addpost' element={< AddPost />}></Route>
-                  <Route exact path='/home' element={< Home showContacts={showContacts} showNetwork={showNetwork} />}></Route> 
+                  <Route exact path='Artinet-Front/' element={< Landing />}></Route>
+                  <Route exact path='Artinet-Front/signin' element={< SignIn />}></Route>
+                  <Route exact path='Artinet-Front/login' element={< Login />}></Route>
+                  <Route exact path='Artinet-Front/addpost' element={< AddPost />}></Route>
+                  <Route exact path='Artinet-Front/home' element={< Home showContacts={showContacts} showNetwork={showNetwork} />}></Route> 
               </Routes>
           </Router>
    </>
