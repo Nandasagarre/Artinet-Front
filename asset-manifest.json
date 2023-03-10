@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Artinet-Front/static/css/main.1c58aaf2.css",
-    "main.js": "/Artinet-Front/static/js/main.ee913a93.js",
+    "main.js": "/Artinet-Front/static/js/main.2a1efc19.js",
     "index.html": "/Artinet-Front/index.html",
     "main.1c58aaf2.css.map": "/Artinet-Front/static/css/main.1c58aaf2.css.map",
-    "main.ee913a93.js.map": "/Artinet-Front/static/js/main.ee913a93.js.map"
+    "main.2a1efc19.js.map": "/Artinet-Front/static/js/main.2a1efc19.js.map"
   },
   "entrypoints": [
     "static/css/main.1c58aaf2.css",
-    "static/js/main.ee913a93.js"
+    "static/js/main.2a1efc19.js"
   ]
 }
